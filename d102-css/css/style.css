@@ -8,12 +8,30 @@ body{
 header{
     background-image: url("../images/fundo.jpg");
     background-position: center;
-    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+img{
+    height: 250;
 }
 nav{
     align-items: center;
-    background-color: rgb(78, 190, 194);
+    background-color: aquamarine;
     display: flex;
     height: 50;
     justify-content: space-around;
+}
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section img{
+    height: 250px;
+}
+section p:nth-child(3):hover{
+    width: 100%;
+
 }
