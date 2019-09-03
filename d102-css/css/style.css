@@ -5,7 +5,11 @@ body{
     font-family: 'Chilanka', cursive;
     margin: 0;
 }
-
+header{
+    background-image: url("../images/fundo.jpg");
+    background-position: center;
+    height: 500px;
+}
 nav{
     align-items: center;
     background-color: rgb(78, 190, 194);
